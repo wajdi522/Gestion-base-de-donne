@@ -20,6 +20,7 @@ namespace gestionDocBD
 
         private void nouveauDocumentToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //pour prendre des donner et enregistrer dans le base de donne 
             richTextBox4.Text=System.DateTime.Now.ToString();
             richTextBox2.Text="";
             richTextBox1.Text="";
@@ -30,7 +31,7 @@ namespace gestionDocBD
 
         private void afficheMesDocumentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            //ouvrire le fenetre a nouveu
            Form2 fm2 = new Form2();
            fm2.ShowDialog();
             
